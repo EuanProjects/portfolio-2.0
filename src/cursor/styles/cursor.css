@@ -1,0 +1,19 @@
+.cursor {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid #0B0c10;
+    border-radius: 50%;
+    background-color: #66fcf1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+}
+
+.hovered-link {
+    transform: scale(2);
+    background-color: #0B0c10;
+    z-index: -1;
+}
