@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './styles/cursor.css';
 
 function Cursor() {
@@ -6,8 +6,6 @@ function Cursor() {
   const [linksHovered, setLinksHovered] = useState(false);
 
   useEffect(() => {
-    const cursorElement = document.querySelector('.cursor');
-
     const handleMouseMove = (e) => {
       setCursorPosition({ top: e.pageY, left: e.pageX });
     };
@@ -21,16 +19,16 @@ function Cursor() {
     };
 
     window.addEventListener('mousemove', handleMouseMove);
-    document.querySelectorAll('h1').forEach((h1) => {
-      h1.addEventListener('mouseenter', handleLinksHover);
-      h1.addEventListener('mouseleave', handleLinksLeave);
+    document.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('mouseenter', handleLinksHover);
+      link.addEventListener('mouseleave', handleLinksLeave);
     });
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
-      document.querySelectorAll('h1').forEach((h1) => {
-        h1.removeEventListener('mouseenter', handleLinksHover);
-        h1.removeEventListener('mouseleave', handleLinksLeave);
+      document.querySelectorAll('a').forEach((link) => {
+        link.removeEventListener('mouseenter', handleLinksHover);
+        link.removeEventListener('mouseleave', handleLinksLeave);
       });
     };
   }, []);
