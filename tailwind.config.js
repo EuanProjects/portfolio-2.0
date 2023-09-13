@@ -10,7 +10,7 @@ export default {
       keyframes: {
         slidein: {
           '0%': { marginLeft: '25%', width: '150%', opacity: 0},
-          '100%': { marginLeft: '0%', width: '100%', opacity: 1},
+          '100%': { marginLeft: '4%', width: '100%', opacity: 1},
         },
       },
       animation: {
