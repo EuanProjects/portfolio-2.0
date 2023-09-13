@@ -23,6 +23,7 @@ export default {
       'gray-light': '#c5c6c7',
       'blue': '#66fcf1',
       'green': '#45a29e',
+      'white': '#FFFFFF'
     },
   },
   plugins: [],
