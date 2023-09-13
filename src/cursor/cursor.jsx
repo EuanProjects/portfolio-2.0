@@ -24,12 +24,23 @@ function Cursor() {
       link.addEventListener('mouseleave', handleLinksLeave);
     });
 
+    document.querySelectorAll('button').forEach((button) => {
+        button.addEventListener('mouseenter', handleLinksHover);
+        button.addEventListener('mouseleave', handleLinksLeave);
+    });
+
+
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
       document.querySelectorAll('a').forEach((link) => {
         link.removeEventListener('mouseenter', handleLinksHover);
         link.removeEventListener('mouseleave', handleLinksLeave);
       });
+
+      document.querySelectorAll('button').forEach((button) => {
+        button.addEventListener('mouseenter', handleLinksHover);
+        button.addEventListener('mouseleave', handleLinksLeave);
+    });
     };
   }, []);
 
