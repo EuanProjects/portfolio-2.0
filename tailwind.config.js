@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      
+      keyframes: {
+        slidein: {
+          '0%': { marginLeft: '25%', width: '150%', opacity: 0},
+          '100%': { marginLeft: '4%', width: '100%', opacity: 1},
+        },
+      },
+      animation: {
+        slidein: 'slidein 3s',
+      },
+    },
     colors: {
       'gray-dark': '#0b0c10',
       'gray': '#1f2833',
