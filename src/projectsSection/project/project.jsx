@@ -2,7 +2,6 @@ import { ExternalLink, GitHub } from 'react-feather'
 
 function Project({ title, description, tools, links, index }) {
     const isEven = index % 2 === 0;
-    console.log(links)
     return (
         <>
             <div className="h-[50vh] my-24">

@@ -9,7 +9,7 @@ function Hero() {
     };
 
     return (
-        <div className="h-screen">
+        <div>
             <div className="fixed left-0 top-36 mx-4 flex items-center origin-center rotate-90">
                 <div className="origin-center rotate-90">
                     <a href="https://www.linkedin.com/in/euan-canoy-8b3530180/" target="_blank" rel="noreferrer" className="hover:-translate-y-1">
