@@ -5,7 +5,7 @@ function ProjectsSection() {
     const viewHeight = projectData.length * 50 + "vh";
     return (
         <>
-            <div className={`h-[${viewHeight}] mx-32`}>
+            <div className={`h-[${viewHeight}] mx-32 mb-48`}>
                 <div className="flex items-center">
                     <h2 className="text-4xl">
                         <span className="text-green text-xl font-mono">03. </span> Projects
