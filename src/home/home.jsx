@@ -3,6 +3,7 @@ import Hero from "../hero/hero";
 import Navbar from "../navbar/navbar";
 import ProjectsSection from "../projectsSection/projectsSection";
 import Contact from "../contact/contact";
+import Footer from "../footer/footer"
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
             <AboutMe />
             <ProjectsSection />
             <Contact />
+            <Footer />
         </>
     )
 }
