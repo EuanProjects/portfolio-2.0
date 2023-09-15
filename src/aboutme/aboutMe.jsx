@@ -1,8 +1,8 @@
 function AboutMe() {
     return (
         <>
-            <div className="h-screen mx-32">
-                <div className="flex items-center">
+            <div className="h-screen w-[99vw] flex flex-col justify-center items-center">
+                <div className="w-3/4 flex justify-left items-center">
                     <h2 className="text-2xl">
                         <span className="text-green text-xl font-mono">02. </span> About Me
                     </h2>
@@ -36,7 +36,6 @@ function AboutMe() {
                             </div>
                         </div>
                     </div>
-
                     <div className="relative">
                         <img src="/profile.JPG" alt="My Image" className="object-cover" />
                     </div>
