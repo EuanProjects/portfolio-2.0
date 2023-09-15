@@ -14,9 +14,9 @@ export default {
         },
       },
       animation: {
-        slideinExtraSlow: 'slidein 1.75s', 
-        slideinSlow: 'slidein 1.5s', 
-        slideinRegular: 'slidein 1.25s',
+        slideinExtraSlow: 'slidein 2s', 
+        slideinSlow: 'slidein 1.75s', 
+        slideinRegular: 'slidein 1.5s',
         slideinFast : 'slidein 1s',
       },
     },
