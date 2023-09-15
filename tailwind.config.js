@@ -9,12 +9,15 @@ export default {
       
       keyframes: {
         slidein: {
-          '0%': { marginLeft: '25%', width: '150%', opacity: 0},
-          '100%': { marginLeft: '4%', width: '100%', opacity: 1},
+          '0%': { marginLeft: '2.5%', width: '150%', opacity: 0},
+          '100%': { marginLeft: '0%', width: '100%', opacity: 1},
         },
       },
       animation: {
-        slidein: 'slidein 3s',
+        slideinExtraSlow: 'slidein 1.75s', 
+        slideinSlow: 'slidein 1.5s', 
+        slideinRegular: 'slidein 1.25s',
+        slideinFast : 'slidein 1s',
       },
     },
     colors: {
