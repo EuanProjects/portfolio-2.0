@@ -6,7 +6,7 @@ function Project({ title, description, tools, links, index }) {
         <>
             <div className="h-[50vh] my-24">
                 <div>
-                    <div className={isEven ? "" : "-translate-x-[13%]"}>
+                    <div>
                         <h4 className={`font-mono text-xs text-gray-light flex ${isEven ? "justify-start" : "justify-end"}`}>
                             Featured Project
                         </h4>
@@ -14,7 +14,7 @@ function Project({ title, description, tools, links, index }) {
                     </div>
                 </div>
                 <div className="grid grid-cols-3 gap-8 my-8 w-full">
-                    <div className={`h-[25vh] w-[120%] my-5 col-span-1 ${isEven ? "order-0" : "order-1 -translate-x-[50%]"}`}>
+                    <div className={`h-[25vh] md:w-[160%] lg:w-[140%] xl:w-[140%] 2xl:w-[120%] my-5 col-span-1 ${isEven ? "order-0" : "order-1 2xl:-translate-x-[17%] xl:-translate-x-[28%] lg:-translate-x-[29%] md:-translate-x-[39%]"}`}>
                         <div className="bg-gray-dark shadow-xl">
                             <p className={`py-2 px-2 text-gray-light ${isEven ? "" : "text-right"}`} >
                                 {description}

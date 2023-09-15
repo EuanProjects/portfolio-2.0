@@ -6,7 +6,7 @@ function ProjectsSection() {
     return (
         <>
             <div className={`h-[${viewHeight}] mb-48 flex justify-center`}>
-                <div className="w-[73vw]">
+                <div className="md:w-[80vw] lg:w-[73vw] 2xl:w-1/2">
                     <div className="flex items-center">
                         <h2 className="text-4xl">
                             <span className="text-green text-xl font-mono">03. </span> Projects
