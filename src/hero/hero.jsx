@@ -1,4 +1,4 @@
-import { GitHub, Linkedin, Mail } from 'react-feather';
+import { GitHub, Linkedin, Mail, FileText } from 'react-feather';
 
 function Hero() {
 
@@ -7,6 +7,9 @@ function Hero() {
             <div className="h-screen">
                 <div className="fixed left-0 top-36 mx-4 flex items-center origin-center rotate-90">
                     <div className="origin-center rotate-90">
+                        <a href="/8-2023.pdf" target="_blank" rel="noreferrer">
+                            <FileText className="stroke-gray-light hover:stroke-white hover:translate-y-1 transition ease-in-out delay-150 rotate-180 my-3" />
+                        </a>
                         <a href="mailto:canoye05@gmail.com?subject=Hello!%20&body=Hi%20Euan!%20" target="_blank" rel="noreferrer">
                             <Mail className="stroke-gray-light hover:stroke-white hover:translate-y-1 transition ease-in-out delay-150 rotate-180 my-3" />
                         </a>

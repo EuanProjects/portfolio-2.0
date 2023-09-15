@@ -13,8 +13,8 @@ function AboutMe() {
                         <p className="text-gray-light">
                             Hello, my name is Euan Canoy! I am a <span className="text-blue">Full-Stack Developer</span> based out of Seattle, Washington.
                             I graduated from The University of Washington Bothell in August of 2022. Since then, I have had experience working
-                            with the EYE Research Group and have continued developing my skills through the Odin Project. Check out my projects below,
-                            download my resume, or visit my links to learn more!
+                            with the EYE Research Group and have continued developing my skills through the Odin Project. Check out my projects,
+                            resume, or visit my links to learn more!
                             <br />
                             <br />
                             Outside of software development, I enjoy playing basketball, bowling,
