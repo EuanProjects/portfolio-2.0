@@ -20,7 +20,7 @@ function Project({ title, description, tools, links, index }) {
                                 {description}
                             </p>
                         </div>
-                        <ul className={`${isEven ? "justify-start" : "justify-end"} flex space-x-4 z-10 mx-2 py-2`}>
+                        <ul className={`${isEven ? "justify-start" : "justify-end"} flex space-x-4 z-10 mx-2 py-2 flex-wrap`}>
                             {tools.map((tool) => (
                                 <li className="list-none font-mono text-gray-light text-xs" key={tool}>
                                     {tool}

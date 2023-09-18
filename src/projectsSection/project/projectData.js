@@ -32,7 +32,7 @@ const projectData = [
     {
         title: "Crypto Tracker",
         description: "Developed a web app in collaboration with a team of UW students that allows users to track cryptocurrencies, receive email updates on top cryptos, and save cryptos that they want to monitor to an account that they created. Created the API and email subscription features.",
-        tools: ["Python", "Flask", "AWS Elastic Beanstalk", "AWS S3", "AWS DynamoDB", "AWS Code Pipeline", "AWS SNS", "AWS Lambda"],
+        tools: ["Python", "Flask", "AWS Elastic Beanstalk", "S3", "DynamoDB", "Code Pipeline", "SNS", "Lambda"],
         link: {},
         id: uuidv4(),
     },

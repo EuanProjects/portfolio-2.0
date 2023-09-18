@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <>
-            <div className="h-[75vh] mx-32">
+            <div className="h-[75vh] mx-32" id="contact">
                 <div className="flex justify-center">
                     <h2 className="text-5xl">
                         <span className="text-green text-xl font-mono">04. </span>
