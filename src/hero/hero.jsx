@@ -1,4 +1,5 @@
 import { GitHub, Linkedin, Mail, FileText } from 'react-feather';
+import { Link } from 'react-scroll'
 
 function Hero() {
 
@@ -47,7 +48,7 @@ function Hero() {
                                 <Linkedin className="stroke-gray-light hover:stroke-white hover:translate-y-1 transition ease-in-out delay-150 my-3" />
                             </a>
                         </div>
-                        <a href="mailto:canoye05@gmail.com?subject=Hello!%20&body=Hi%20Euan!%20">
+                        <Link to="about" spy={true} smooth={true} offset={-50} duration={500} >
                             <button className="border-2 border-blue rounded-md
                                                     absolute bg-gray w-36
                                                     h-12 transform hover:-translate-y-1 hover:-translate-x-1 transition-transform
@@ -55,7 +56,7 @@ function Hero() {
                                 <span>See More Below!</span>
                             </button>
                             <div className="bg-gray-light border-blue hover:border-gray-light w-36 h-12 z-0 my-6 absolute rounded-md"></div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

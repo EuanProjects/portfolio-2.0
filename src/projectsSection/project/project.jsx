@@ -4,7 +4,7 @@ function Project({ title, description, tools, links, index }) {
     const isEven = index % 2 === 0;
     return (
         <>
-            <div className="md:[50vh] sm:h-[800px] xs:h-[550px] md:my-12 sm:my-12 xs:my-24">
+            <div className="xl:h-[55vh] lg:h-[50vh] md:h-[500px] sm:h-[800px] xs:h-[650px] md:my-12 sm:my-12 xs:my-24">
                 <div>
                     <div>
                         <h4 className={`font-mono text-xs text-gray-light flex ${isEven ? "justify-start" : "justify-end"}`}>
