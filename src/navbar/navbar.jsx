@@ -7,8 +7,8 @@ function Navbar({ handleClick, displayMenu }) {
     return (
         <>
             {!displayMenu &&
-                <div className="w-[100vw] fixed bg-gray">
-                    <nav className="flex justify-between p-6 z-30">
+                <div className="w-[100vw] fixed bg-gray z-50">
+                    <nav className="flex justify-between p-6 ">
                         <div>
                             <a className="text-xl">EC</a>
                         </div>

@@ -6,6 +6,7 @@ const projectData = [
         description: "Designed and implemented webpages and databases with practical application for obtaining consent forms used in eye management by Near Vision Institute. This tool streamlined the consent form process with improved data processing. In conjunction, I designed and executed a web-based patient intake form completed by patients prior to initial visits with the provider.",
         tools: ["PHP", "HTML", "MySQL", "Bootstrap", "AWS EC2", "AWS RDS"],
         links: {},
+        imgSrc: "newGif.gif",
         id: uuidv4(),
     },
     { 

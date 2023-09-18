@@ -14,7 +14,7 @@ function Project({ title, description, tools, links, index }) {
                     </div>
                 </div>
                 <div className="grid md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-8 my-8 w-full">
-                    <div className={`h-[25vh] md:w-[160%] lg:w-[140%] xl:w-[140%] 2xl:w-[120%] my-5 col-span-1 ${isEven ? "md:order-1 sm:order-1 xs:order-1" : "order-1 2xl:-translate-x-[17%] xl:-translate-x-[28%] lg:-translate-x-[29%] md:-translate-x-[39%]"}`}>
+                    <div className={`z-20 h-[25vh] md:w-[160%] lg:w-[140%] xl:w-[140%] 2xl:w-[120%] my-5 col-span-1 ${isEven ? "md:order-1 sm:order-1 xs:order-1" : "order-1 2xl:-translate-x-[17%] xl:-translate-x-[28%] lg:-translate-x-[29%] md:-translate-x-[39%]"}`}>
                         <div className="bg-gray-dark shadow-xl">
                             <p className={`py-2 px-2 text-gray-light ${isEven ? "" : "text-right"}`} >
                                 {description}
@@ -43,8 +43,8 @@ function Project({ title, description, tools, links, index }) {
                             }
                         </div>
                     </div>
-                    <div className={`flex md:col-span-2 -z-30 ${isEven ? "lg:col-span-2 md:col-span-2 lg:order-1 md:order-1 sm:order-0" : "justify-end"}`}>
-                        <img src="/erg.gif" alt="EYE Research Group" className="object-contain md:h-[45vh] sm:h-[35vh] xs:h-[25vh]" />
+                    <div className={`flex md:col-span-2 z-10 ${isEven ? "lg:col-span-2 md:col-span-2 lg:order-1 md:order-1 sm:order-0" : "justify-end"}`}>
+                        <img src={imgSrc} alt="EYE Research Group" className="object-contain md:h-[45vh] sm:h-[35vh] xs:h-[25vh]" />
                     </div>
 
                 </div>
