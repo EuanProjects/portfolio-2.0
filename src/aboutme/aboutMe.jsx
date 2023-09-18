@@ -1,16 +1,16 @@
 function AboutMe() {
     return (
         <>
-            <div className="h-screen w-[99vw] flex flex-col justify-center items-center">
+            <div className="h-screen w-[99vw] min-h-[1024px] flex flex-col justify-center items-center sm:px-6 xs:px-6" id="about">
                 <div className="md:w-10/12 lg:w-3/4 2xl:w-1/2">
-                    <div className="w-3/4 flex justify-left items-center">
-                        <h2 className="text-2xl">
+                    <div className="md:w-3/4 md:w-full flex justify-left items-center">
+                        <h2 className="sm:text-4xl xs:text-2xl">
                             <span className="text-green text-xl font-mono">02. </span> About Me
                         </h2>
-                        <hr className="w-7/12 border-t border-green h-1 ml-4 mt-2" />
+                        <hr className="w-5/12 border-t border-green h-1 ml-4 mt-2" />
                     </div>
-                    <div className="grid grid-cols-2 gap-8 my-8 w-full">
-                        <div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8 w-full">
+                        <div className="xs:order-2 sm:order-2">
                             <p className="text-gray-light">
                                 Hello, my name is Euan Canoy! I am a <span className="text-blue">Full-Stack Developer</span> based out of Seattle, Washington.
                                 I graduated from The University of Washington Bothell in August of 2022. Since then, I have had experience working
@@ -37,8 +37,8 @@ function AboutMe() {
                                 </div>
                             </div>
                         </div>
-                        <div className="relative">
-                            <img src="/profile.JPG" alt="My Image" className="object-cover" />
+                        <div className="xs:order-1 sm:order-1 md:order-2 -z-10 relative xs:max-h-[500px] flex justify-center">
+                            <img src="/profile.JPG" alt="My Image" className="object-cover xs:h-full max-h-[500px]" />
                         </div>
                     </div>
                 </div>

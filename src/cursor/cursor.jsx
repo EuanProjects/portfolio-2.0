@@ -46,7 +46,7 @@ function Cursor() {
 
   return (
     <>
-      <div className={`cursor ${linksHovered ? 'hovered-link' : ''}`} style={cursorPosition}></div>
+      <div className={`sm:hidden xs:hidden md:hidden lg:block cursor ${linksHovered ? 'hovered-link' : ''}`} style={cursorPosition}></div>
     </>
   );
 }
