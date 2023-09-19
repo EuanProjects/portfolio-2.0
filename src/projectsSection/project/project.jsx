@@ -1,6 +1,6 @@
 import { ExternalLink, GitHub } from 'react-feather'
 
-function Project({ title, description, tools, links, index }) {
+function Project({ title, description, tools, links, imgSrc, index }) {
     const isEven = index % 2 === 0;
     return (
         <>
@@ -44,7 +44,7 @@ function Project({ title, description, tools, links, index }) {
                         </div>
                     </div>
                     <div className={`flex md:col-span-2 -z-30 ${isEven ? "lg:col-span-2 md:col-span-2 lg:order-1 md:order-1 sm:order-0" : "justify-end"}`}>
-                        <img src="/erg.gif" alt="EYE Research Group" className="object-contain md:h-[45vh] sm:h-[35vh] xs:h-[25vh]" />
+                        <img src={imgSrc} alt="EYE Research Group" className="object-contain md:h-[45vh] sm:h-[35vh] xs:h-[25vh]" />
                     </div>
 
                 </div>
