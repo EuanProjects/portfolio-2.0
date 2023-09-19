@@ -6,7 +6,7 @@ function Hero() {
     return (
         <>
             <div className="h-screen min-h-[720px] pt-[76px]" id="hero">
-                <div className="fixed left-0 top-36 mx-4 flex items-center origin-center rotate-90">
+                <div className="fixed left-0 top-36 mx-4 flex items-center origin-center rotate-90 z-50">
                     <div className="origin-center rotate-90 lg:block md:block sm:hidden xs:hidden">
                         <a href="/8-2023.pdf" target="_blank" rel="noreferrer">
                             <FileText className="stroke-gray-light hover:stroke-white hover:translate-y-1 transition ease-in-out delay-150 rotate-180 my-3" />
