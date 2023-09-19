@@ -1,11 +1,45 @@
+import { useState, useEffect } from "react";
+import AboutMe from "../aboutme/aboutMe";
+import Hero from "../hero/hero";
+import Navbar from "../navbar/navbar";
+import ProjectsSection from "../projectsSection/projectsSection";
+import Contact from "../contact/contact";
+import Footer from "../footer/footer";
+import Preloader from "../preloader/preloader";
+import Cursor from "../cursor/cursor";
 
 function Home() {
+    const [displayMenu, setDisplayMenu] = useState(false);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+          setLoading(false);
+        }, 2000);
+      }, []);
+
+    function handleClick() {
+        console.log("here");
+        setDisplayMenu(!displayMenu);
+    }
 
     return (
         <>
-            <div><h1>Test</h1></div>
+            {loading ? 
+            <Preloader /> :
+            <>
+            <Navbar handleClick={handleClick} displayMenu={displayMenu} />
+            <Hero />
+            <AboutMe />
+            <ProjectsSection />
+            <Contact />
+            <Footer />
+            <Cursor />
+            </>
+            }
+
         </>
-    )
+    );
 }
 
 export default Home;
