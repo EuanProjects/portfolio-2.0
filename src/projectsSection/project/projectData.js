@@ -27,7 +27,7 @@ const projectData = [
     },
     {
         title: "Portfolio V1",
-        description: "My first portfolio website for myself",
+        description: "My first portfolio website to showcase my current work and and a way for professionals to contact me. Practiced creating a responsive design and adding features to allow for a more interactive experience and develop my react skills.",
         tools: ["React", "Boostrap", "JavaScript", "react-router-dom", "email-JS"],
         links: {link : "https://euan-canoy-portfolio.onrender.com/", github : "https://github.com/ejcanoy/website"},
         imgSrc: "/portfoliov1.png",
