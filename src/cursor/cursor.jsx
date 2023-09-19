@@ -11,7 +11,8 @@ function Cursor() {
     };
 
     const handleLinksHover = () => {
-      setLinksHovered(true);
+      console.log("here")
+      setLinksHovered(true)
     };
 
     const handleLinksLeave = () => {
@@ -46,7 +47,7 @@ function Cursor() {
 
   return (
     <>
-      <div className={`sm:hidden xs:hidden md:hidden lg:block cursor ${linksHovered ? 'hovered-link' : ''}`} style={cursorPosition}></div>
+      <div className={`sm:hidden xs:hidden md:hidden lg:block cursor ${linksHovered ? 'hovered-link -z-10' : ''}`} style={cursorPosition}></div>
     </>
   );
 }

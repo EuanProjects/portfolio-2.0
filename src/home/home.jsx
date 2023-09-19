@@ -6,6 +6,7 @@ import ProjectsSection from "../projectsSection/projectsSection";
 import Contact from "../contact/contact";
 import Footer from "../footer/footer";
 import Preloader from "../preloader/preloader";
+import Cursor from "../cursor/cursor";
 
 function Home() {
     const [displayMenu, setDisplayMenu] = useState(false);
@@ -33,6 +34,7 @@ function Home() {
             <ProjectsSection />
             <Contact />
             <Footer />
+            <Cursor />
             </>
             }
 
