@@ -11,16 +11,16 @@ function Home() {
     const [displayMenu, setDisplayMenu] = useState(false);
     const [loading, setLoading] = useState(true);
 
-    function handleClick() {
-        console.log("here");
-        setDisplayMenu(!displayMenu);
-    }
-
     useEffect(() => {
         setTimeout(() => {
           setLoading(false);
         }, 2000);
       }, []);
+
+    function handleClick() {
+        console.log("here");
+        setDisplayMenu(!displayMenu);
+    }
 
     return (
         <>
