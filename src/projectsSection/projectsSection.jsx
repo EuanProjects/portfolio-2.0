@@ -21,6 +21,7 @@ function ProjectsSection() {
                             tools={projectInfo.tools}
                             key={projectInfo.id}
                             links={projectInfo.links}
+                            imgSrc={projectInfo.imgSrc}
                             index={index}
                         />
                     ))}
