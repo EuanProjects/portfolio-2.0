@@ -9,6 +9,14 @@ const projectData = [
         imgSrc: "/newGif.gif",
         id: uuidv4(),
     },
+    {
+        title: "Fat Napz Society Redesign",
+        description: "Redesigned and developed a revamped version of https://www.fatnapzsociety.com/ . Mock design that allows for users to still add items to cart, checkout, and subscribe to site",
+        tools: ["React", "react-router-dom", "tailwind"],
+        links: {link:"https://fatnapzsociety.onrender.com/", github: "https://github.com/ejcanoy/shopping-cart"},
+        imgSrc: "/fatnapz.png",
+        id: uuidv4(),
+    },
     { 
         title: "Bowling App",
         description: "Programmed a full-stack bowling application with a REST API that tracks the score of 3 game sets for league and the type of pins knocked down per frame.",
