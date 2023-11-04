@@ -14,7 +14,7 @@ function Navbar({ handleClick, displayMenu }) {
                 <div className="w-[100vw] fixed bg-gray z-30">
                     <nav className="flex justify-between p-6 ">
                         <div>
-                            <a className="text-xl">EC</a>
+                            <Link to="hero" spy={true} smooth={true} offset={-50} duration={500} onSetActive={() => setActiveSection('hero')} activeClass=""><button className="text-xl">EC</button></Link>
                         </div>
                         <div className="space-x-5 lg:block sm:hidden xs:hidden">
                             <button className={`w-[100px] parent ${activeSection === 'hero' ? 'active' : ''}`}>
