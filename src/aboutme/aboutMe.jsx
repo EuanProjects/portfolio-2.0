@@ -28,11 +28,13 @@ function AboutMe() {
                                         <li> &gt; React</li>
                                         <li> &gt; JavaScript</li>
                                         <li> &gt; Node.JS</li>
+                                        <li> &gt; CSS Tailwind</li>
                                     </ul>
                                     <ul>
                                         <li> &gt; PHP</li>
                                         <li> &gt; AWS</li>
                                         <li> &gt; MySQL</li>
+                                        <li> &gt; MongoDB</li>
                                     </ul>
                                 </div>
                             </div>
