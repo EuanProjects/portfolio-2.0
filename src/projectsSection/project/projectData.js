@@ -17,6 +17,14 @@ const projectData = [
         imgSrc: "/fatnapz.png",
         id: uuidv4(),
     },
+    {
+        title: "Fat Napz Society Inventory",
+        description: "Created an appplication to create, update, delete, and view inventory for Fat Napz Society.",
+        tools: ["Express", "JavaScript", "Bootstrap, MongoDB Atlas, Node.JS"],
+        links: {link:"https://fatnapz-society-inventory.onrender.com/catalog", github: "https://github.com/EuanProjects/fatnapz-inventory"},
+        imgSrc: "/fatnapzinventory.png",
+        id: uuidv4(),
+    },
     { 
         title: "Bowling App",
         description: "Programmed a full-stack bowling application with a REST API that tracks the score of 3 game sets for league and the type of pins knocked down per frame.",
