@@ -21,13 +21,13 @@ function Navbar({ handleClick, displayMenu }) {
                                 <Link to="hero" spy={true} smooth={true} offset={-50} duration={500} onSetActive={() => setActiveSection('hero')} activeClass=""><span className="text-green text-xs font-mono">01. </span>Home</Link>
                             </button>
                             <button className={`w-[100px] parent ${activeSection === 'about' ? 'active' : ''}`}>
-                                <Link to="about" spy={true} smooth={true} offset={25} duration={500} onSetActive={() => setActiveSection('about')} activeClass=""><span className="text-green text-xs font-mono">01. </span>About</Link>
+                                <Link to="about" spy={true} smooth={true} offset={25} duration={500} onSetActive={() => setActiveSection('about')} activeClass=""><span className="text-green text-xs font-mono">02. </span>About</Link>
                             </button>
                             <button className={`w-[100px] parent ${activeSection === 'projects' ? 'active' : ''}`}>
-                                <Link to="projects" spy={true} smooth={true} offset={-75} duration={500} onSetActive={() => setActiveSection('projects')} activeClass=""><span className="text-green text-xs font-mono">01. </span>Projects</Link>
+                                <Link to="projects" spy={true} smooth={true} offset={-75} duration={500} onSetActive={() => setActiveSection('projects')} activeClass=""><span className="text-green text-xs font-mono">03. </span>Projects</Link>
                             </button>
                             <button className={`w-[100px] parent ${activeSection === 'contact' ? 'active' : ''}`}>
-                                <Link to="contact" spy={true} smooth={true} offset={-50} duration={500} onSetActive={() => setActiveSection('contact')} activeClass=""><span className="text-green text-xs font-mono">01. </span>Contact</Link>
+                                <Link to="contact" spy={true} smooth={true} offset={-50} duration={500} onSetActive={() => setActiveSection('contact')} activeClass=""><span className="text-green text-xs font-mono">04. </span>Contact</Link>
                             </button>
                         </div>
                         <div className="lg:hidden sm:block">
