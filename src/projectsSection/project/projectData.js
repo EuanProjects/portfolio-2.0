@@ -18,6 +18,14 @@ const projectData = [
         id: uuidv4(),
     },
     {
+        title: "Family Handy Services Website",
+        description: "Crafted and consulted on the development of a website for a neighborhood handyman service, enabling customers to easily connect, view recent projects, and attract additional business opportunities.",
+        tools: ["React", "react-router-dom", "tailwind"],
+        links: {link:"https://www.thefamilyhandymanservices.com/"},
+        imgSrc: "/familyhandyman.png",
+        id: uuidv4(),
+    },
+    {
         title: "Fat Napz Society Inventory",
         description: "Created an appplication to create, update, delete, and view inventory for Fat Napz Society.",
         tools: ["Express", "JavaScript", "Bootstrap, MongoDB Atlas, Node.JS"],
