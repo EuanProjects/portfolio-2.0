@@ -8,7 +8,7 @@ function Hero() {
             <div className="h-screen min-h-[720px] pt-[76px]" id="hero">
                 <div className="fixed left-0 top-36 mx-4 flex items-center origin-center rotate-90 z-50">
                     <div className="origin-center rotate-90 lg:block md:block sm:hidden xs:hidden">
-                        <a href="/8-2023.pdf" target="_blank" rel="noreferrer">
+                        <a href="/06-2024.pdf" target="_blank" rel="noreferrer">
                             <FileText className="stroke-gray-light hover:stroke-white hover:translate-y-1 transition ease-in-out delay-150 rotate-180 my-3" />
                         </a>
                         <a href="mailto:canoye05@gmail.com?subject=Hello!%20&body=Hi%20Euan!%20" target="_blank" rel="noreferrer">
@@ -26,7 +26,7 @@ function Hero() {
                     <div>
                         <p className="animate-slideinFast font-mono text-green">Hi, my name is</p>
                         <h1 className="animate-slideinRegular text-7xl xs:text-6xl py-3 font-bold">Euan Canoy</h1>
-                        <h1 className="animate-slideinSlow text-5xl xs:text-4xl py-3 text-gray-light font-semibold">I build cool things for the web</h1>
+                        <h1 className="animate-slideinSlow text-5xl xs:text-4xl py-3 text-gray-light font-semibold">Building websites is my thing</h1>
                         <div className="animate-slideinExtraSlow max-w-2xl">
                             <p className="py-6 text-gray-light">
                                 I am a Full-Stack Developer whose focus is on building websites that are both
@@ -35,7 +35,7 @@ function Hero() {
                             </p>
                         </div>
                         <div className="flex space-x-4 md:hidden">
-                            <a href="/8-2023.pdf" target="_blank" rel="noreferrer">
+                            <a href="/06-2024.pdf" target="_blank" rel="noreferrer">
                                 <FileText className="stroke-gray-light hover:stroke-white hover:translate-y-1 transition ease-in-out delay-150 my-3" />
                             </a>
                             <a href="mailto:canoye05@gmail.com?subject=Hello!%20&body=Hi%20Euan!%20" target="_blank" rel="noreferrer">
