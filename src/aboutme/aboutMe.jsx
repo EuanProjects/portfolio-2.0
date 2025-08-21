@@ -26,12 +26,14 @@ function AboutMe() {
                                 <h3 className="text-gray-light">Technologies I've worked with recently:</h3>
                                 <div className="grid grid-cols-2 font-mono my-2">
                                     <ul>
+                                        <li> &gt; Java</li>
                                         <li> &gt; React</li>
                                         <li> &gt; JavaScript</li>
                                         <li> &gt; Node.JS</li>
                                         <li> &gt; CSS Tailwind</li>
                                     </ul>
                                     <ul>
+                                        <li> &gt; Micronaut</li>
                                         <li> &gt; PHP</li>
                                         <li> &gt; AWS</li>
                                         <li> &gt; MySQL</li>
@@ -41,7 +43,7 @@ function AboutMe() {
                             </div>
                         </div>
                         <div className="xs:order-1 sm:order-1 md:order-2 -z-10 relative xs:max-h-[500px] flex justify-center">
-                            <img src="/profile.JPG" alt="My Image" className="object-cover xs:h-full max-h-[500px]" />
+                            <img src="/2025_profile_picture.jpg" alt="My Image" className="object-cover xs:h-full max-h-[500px]" />
                         </div>
                     </div>
                 </div>
