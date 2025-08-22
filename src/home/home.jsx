@@ -34,7 +34,7 @@ function Home() {
             <ProjectsSection />
             <Contact />
             <Footer />
-            <Cursor />
+            {/* <Cursor /> */}
             </>
             }
 

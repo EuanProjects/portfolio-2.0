@@ -8,7 +8,7 @@ function Hero() {
             <div className="h-screen min-h-[720px] pt-[76px]" id="hero">
                 <div className="fixed left-0 top-36 mx-4 flex items-center origin-center rotate-90 z-50">
                     <div className="origin-center rotate-90 lg:block md:block sm:hidden xs:hidden">
-                        <a href="/Euan_Canoy_10_24_Resume.pdf" target="_blank" rel="noreferrer">
+                        <a href="/Euan_Canoy_Resume_26.pdf" target="_blank" rel="noreferrer">
                             <FileText className="stroke-gray-light hover:stroke-white hover:translate-y-1 transition ease-in-out delay-150 rotate-180 my-3" />
                         </a>
                         <a href="mailto:canoye05@gmail.com?subject=Hello!%20&body=Hi%20Euan!%20" target="_blank" rel="noreferrer">
@@ -35,7 +35,7 @@ function Hero() {
                             </p>
                         </div>
                         <div className="flex space-x-4 md:hidden">
-                            <a href="/Euan_Canoy_10_24_Resume.pdf" target="_blank" rel="noreferrer">
+                            <a href="/Euan_Canoy_Resume_26.pdf" target="_blank" rel="noreferrer">
                                 <FileText className="stroke-gray-light hover:stroke-white hover:translate-y-1 transition ease-in-out delay-150 my-3" />
                             </a>
                             <a href="mailto:canoye05@gmail.com?subject=Hello!%20&body=Hi%20Euan!%20" target="_blank" rel="noreferrer">
